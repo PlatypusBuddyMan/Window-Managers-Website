@@ -1,0 +1,97 @@
+
+@font-face {
+  font-family: BigBlueTerm;
+  src: url(./BigBlueTerm437NerdFont-Regular.ttf);
+}
+
+body {
+    background-color:black;
+}
+
+h1 {
+    text-align: center;
+    font-family: BigBlueTerm;
+    font-weight: normal;
+    color: white;
+}
+
+h2 {
+    text-align: west;
+    font-family: BigBlueTerm;
+    font-weight: normal;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: BigBlueTerm;
+    font-weight: normal;
+    color: white;
+}
+
+h4 {
+    text-align: center;
+    font-family: BigBlueTerm;
+    font-weight: normal;
+    color: white;
+}
+
+p {
+    text-align: west;
+    font-family: BigBlueTerm;
+    font-weight: normal;
+    color: white
+}
+
+ul {
+    text-align: west;
+    font-family: BigBlueTerm;
+    font-weight: normal;
+    color: white
+}
+
+a {
+    font-family: BigBlueTerm;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: rgb(155, 155, 155);
+  border-color: #ddd;
+  border-width: 20px;
+  border-radius: 3px;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+  border-color: white;
+  border-width: 20px;
+  border-radius: 3px
+}
+
+
+
+img {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
