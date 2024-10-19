@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+@font-face {
+  font-family: BigBlueTerm;
+  src: url(./BigBlueTerm437NerdFont-Regular.ttf);
+}
+
+
+body {
+    background-color:#282a36;
+}
+
+a:link {
+  color: #bd93f9;
+}
+
+a:visited {
+  color: #ff7ac7;
+}
+
+a:hover {
+  color: #ff7ac7;
+}
+
+a:active {
+  color: #6373a6;
+} 
+
+h1 {
+    text-align: center;
+    font-family: Agdasima;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #f8f9f3;
+}
+
+h2 {
+    text-align: west;
+    font-family: Agdasima;
+    font-weight: bold;
+    font-size: 28px;
+    color: #f8f9f3;
+}
+
+h3 {
+    text-align: center;
+    font-family: Agdasima;
+    font-weight: normal;
+    font-size: 30px;
+    color: #f8f9f3;
+}
+
+h4 {
+    text-align: center;
+    font-family: Agdasima;
+    font-weight: normal;
+    color: #f8f9f3;
+}
+
+p {
+    text-align: west;
+    font-family: Agdasima;
+    font-size: 25px;
+    font-weight: normal;
+    color: #f8f9f3
+}
+
+ul {
+    text-align: west;
+    font-family: Agdasima;
+    font-weight: normal;
+    color: #f8f9f3;
+}
+
+a {
+    font-family: Agdasima;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #282a36;
+}
+
+.topnav a {
+  float: left;
+  color: #f8f9f3;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold
+}
+
+.topnav a:hover {
+  background-color: #44475a;
+  border-color: #ddd;
+  border-width: 20px;
+  border-radius: 3px;
+  color: #f8f9f3;
+}
+
+.topnav a.active {
+  background-color: #f8f9f3;
+  color: #393d4e;
+  border-color: white;
+  border-width: 20px;
+  border-radius: 3px
+}
+
+
+
+img {
+    border: 2px solid #BD93F9;
+    border-radius: 5px;
+    padding: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
