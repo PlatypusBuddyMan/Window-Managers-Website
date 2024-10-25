@@ -81,7 +81,6 @@ a {
 }
 
 .topnav {
-  overflow: hidden;
   background-color: #282a36;
 }
 
@@ -113,7 +112,35 @@ a {
   border-radius: 3px
 }
 
+.topnav-about a{
+  float: right;
+  color: #f8f9f3;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
 
+.topnav-about a:hover:not(.active) {
+  background-color: #44475a;  
+  animation-name: hover;
+  animation-duration: .48s;
+  border-color: #ddd;
+  border-width: 20px;
+  border-radius: 3px;
+  color: #f8f9f3;
+}
+
+.topnav-about a.active {
+  background-color: #f8f9f3;
+  color: #393d4e;
+  border-color: white;
+  border-width: 20px;
+  border-radius: 3px
+}
+
+}
 
 img {
     border: 3px solid #BD93F9;
